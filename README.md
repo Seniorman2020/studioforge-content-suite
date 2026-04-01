@@ -20,6 +20,20 @@ It is designed to look and feel very different from Errivo: editorial, warm, cre
 - CSS
 - Small vanilla JavaScript for the mobile navigation toggle
 
+## Screenshots
+
+### Overview
+
+![StudioForge overview](assets/screenshots/overview.png)
+
+### Workspace
+
+![StudioForge workspace](assets/screenshots/workspace.png)
+
+### Analytics
+
+![StudioForge analytics](assets/screenshots/analytics.png)
+
 ## Folder structure
 
 - `index.php`
