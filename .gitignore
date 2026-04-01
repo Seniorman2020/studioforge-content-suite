@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment overrides
+.env
+.env.local
+config.local.php
+
+# Temporary files
+*.tmp
+*.swp
