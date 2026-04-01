@@ -1,12 +1,12 @@
-# StudioForge Content Suite
+# StudioForge
 
-StudioForge is a polished creator content studio concept built as a standalone portfolio project by `Seniorman Computers`.
+StudioForge is a professional content operations suite built by `Seniorman Computers`.
 
-It is designed to look and feel very different from Errivo: editorial, warm, creative, and premium instead of marketplace-like. The project presents a modern interface for planning campaigns, organizing publishing schedules, tracking approvals, storing content ideas, and reviewing performance snapshots.
+It provides a modern interface for planning campaigns, organizing publishing schedules, managing approvals, storing content ideas, and reviewing performance snapshots.
 
-## What is inside
+## Overview
 
-- A bold public landing page with a premium creative-studio direction
+- A refined product landing page with an editorial interface
 - A workspace dashboard for active campaigns and approval flow
 - A weekly content calendar view
 - An analytics page with performance notes and experiment tracking

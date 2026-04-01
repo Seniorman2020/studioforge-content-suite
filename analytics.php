@@ -70,7 +70,7 @@ studio_render_header(
         <div class="panel-head">
             <div>
                 <span class="section-label">Experiment log</span>
-                <h2>Creative tests worth keeping</h2>
+                <h2>Creative patterns worth keeping</h2>
             </div>
         </div>
         <div class="experiment-grid">

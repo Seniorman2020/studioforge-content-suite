@@ -13,8 +13,8 @@ function studio_data(): array
         'brand' => [
             'name' => 'StudioForge',
             'headline' => 'Shape ideas into polished campaigns with one calm, beautiful workspace.',
-            'tagline' => 'Creator Content Studio',
-            'subcopy' => 'A premium portfolio concept for creative teams planning content calendars, managing approvals, tracking campaign momentum, and turning scattered ideas into repeatable growth.',
+            'tagline' => 'Content Operations Suite',
+            'subcopy' => 'A content operations platform for teams planning calendars, managing approvals, tracking campaign momentum, and turning scattered ideas into repeatable growth.',
         ],
         'company' => [
             'name' => 'Seniorman Computers',
@@ -41,7 +41,7 @@ function studio_data(): array
             ],
             [
                 'title' => 'Ideas vault',
-                'copy' => 'Save hooks, trends, references, and quick concepts before they disappear, then group them into formats that fit your brand.',
+                'copy' => 'Save hooks, trends, references, and quick campaign directions before they disappear, then group them into formats that fit your brand.',
             ],
             [
                 'title' => 'Approval lanes',
@@ -65,7 +65,7 @@ function studio_data(): array
                 'owner' => 'Brand studio',
                 'channel' => 'LinkedIn + Blog',
                 'progress' => 61,
-                'summary' => 'A trust-building series that turns process notes into strong professional storytelling and portfolio proof.',
+                'summary' => 'A trust-building series that turns process notes into strong professional storytelling and brand credibility.',
             ],
             [
                 'name' => 'Creator Collab Drop',
@@ -84,7 +84,7 @@ function studio_data(): array
             'In review' => [
                 'Launch reel storyboard',
                 'Product close-up image selects',
-                'Newsletter subject line tests',
+                'Newsletter subject line options',
             ],
             'Ready to schedule' => [
                 'Community spotlight post',

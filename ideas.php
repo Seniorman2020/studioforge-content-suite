@@ -8,7 +8,7 @@ $data = studio_data();
 studio_render_header(
     'ideas',
     'Ideas Vault | StudioForge',
-    'A structured ideas vault for content hooks, launch concepts, editorial prompts, and reusable creative pillars.'
+    'A structured ideas vault for content hooks, launch themes, editorial prompts, and reusable creative pillars.'
 );
 ?>
 <main>
@@ -16,7 +16,7 @@ studio_render_header(
         <div>
             <span class="eyebrow">Ideas vault</span>
             <h1>Capture sparks before they disappear.</h1>
-            <p>A flexible concept library for hooks, prompts, formats, and premium storytelling angles.</p>
+            <p>A flexible planning library for hooks, prompts, formats, and premium storytelling angles.</p>
         </div>
     </section>
 

@@ -128,7 +128,7 @@ studio_render_header(
                     <span class="tag"><?= studio_e($pillar) ?></span>
                 <?php endforeach; ?>
             </div>
-            <p class="lead-copy small-copy">Every output in this concept is anchored in clarity, premium restraint, and stronger audience resonance instead of dashboard clutter.</p>
+            <p class="lead-copy small-copy">Every workflow in this system is anchored in clarity, premium restraint, and stronger audience resonance instead of dashboard clutter.</p>
         </article>
     </section>
 </main>

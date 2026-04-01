@@ -7,14 +7,14 @@ $data = studio_data();
 
 studio_render_header(
     'index',
-    'StudioForge | Creator Content Studio',
-    'A refined creator content studio concept for campaign planning, scheduling, approvals, and performance insights.'
+    'StudioForge | Content Operations Suite',
+    'A refined content operations suite for campaign planning, scheduling, approvals, and performance insights.'
 );
 ?>
 <main>
     <section class="hero">
         <div class="hero-copy">
-            <span class="eyebrow">Independent portfolio concept</span>
+            <span class="eyebrow">Content operations platform</span>
             <h1><?= studio_e($data['brand']['headline']) ?></h1>
             <p class="hero-text"><?= studio_e($data['brand']['subcopy']) ?></p>
             <div class="hero-actions">
@@ -45,7 +45,7 @@ studio_render_header(
                 </div>
                 <span class="status-badge">Creative ops ready</span>
             </div>
-            <p class="lead-copy">StudioForge is designed like a premium editorial workspace instead of a generic admin panel. It gives content teams a calm overview of active launches, upcoming slots, experiment learnings, and assets that need approval.</p>
+            <p class="lead-copy">StudioForge is designed like a premium editorial workspace instead of a generic admin panel. It gives content teams a calm overview of active launches, upcoming slots, performance learnings, and assets that need approval.</p>
             <div class="feature-grid">
                 <?php foreach ($data['features'] as $feature): ?>
                     <article class="feature-card">
