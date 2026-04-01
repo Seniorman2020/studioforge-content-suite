@@ -19,6 +19,7 @@ function studio_data(): array
         'company' => [
             'name' => 'Seniorman Computers',
             'email' => 'cniorman6@gmail.com',
+            'phone' => '08164616531',
             'license' => 'MIT License',
         ],
         'pages' => [

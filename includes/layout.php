@@ -58,6 +58,7 @@ function studio_render_footer(): void
         </div>
         <div class="footer-meta">
             <a href="mailto:<?= studio_e($data['company']['email']) ?>"><?= studio_e($data['company']['email']) ?></a>
+            <span><?= studio_e($data['company']['phone']) ?></span>
             <span><?= studio_e($data['company']['license']) ?></span>
             <span>&copy; <?= date('Y') ?> <?= studio_e($data['company']['name']) ?></span>
         </div>
