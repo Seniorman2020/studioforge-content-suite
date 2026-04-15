@@ -54,7 +54,7 @@ function studio_render_footer(): void
     <footer class="footer">
         <div>
             <p class="footer-kicker">Built by <?= studio_e($data['company']['name']) ?></p>
-            <h2>Built for creative teams, editorial planning, and publishing operations.</h2>
+            <h2>Built for Nigerian creative teams, campaign planning, and daily publishing work.</h2>
         </div>
         <div class="footer-meta">
             <a href="mailto:<?= studio_e($data['company']['email']) ?>"><?= studio_e($data['company']['email']) ?></a>

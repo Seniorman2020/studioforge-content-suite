@@ -8,15 +8,15 @@ $data = studio_data();
 studio_render_header(
     'calendar',
     'Calendar | StudioForge',
-    'Publishing calendar for mapping weekly content, channels, time slots, and team ownership.'
+    'Publishing calendar for mapping weekly Nigerian content, channels, time slots, and team ownership.'
 );
 ?>
 <main>
     <section class="page-hero">
         <div>
             <span class="eyebrow">Calendar</span>
-            <h1>Publishing plans that stay readable at a glance.</h1>
-            <p>A modern weekly content map for creators who need structure without losing momentum.</p>
+            <h1>Plan the week in a way your whole team can scan fast.</h1>
+            <p>A clean weekly map for Nigerian campaigns, launches, promos, and daily content follow-through.</p>
         </div>
     </section>
 
@@ -49,22 +49,22 @@ studio_render_header(
                 <div class="mini-row">
                     <strong>A</strong>
                     <div>
-                        <p>Product texture session</p>
-                        <span>Capture stills, details, and looping motion for launch week.</span>
+                        <p>White-background product session</p>
+                        <span>Capture clean stills, detail shots, and looped clips for the promo week.</span>
                     </div>
                 </div>
                 <div class="mini-row">
                     <strong>B</strong>
                     <div>
                         <p>Founder desk notes</p>
-                        <span>Record warm voice-led clips and writing process cutaways.</span>
+                        <span>Record warm voice-led clips, typing shots, and simple process cutaways.</span>
                     </div>
                 </div>
                 <div class="mini-row">
                     <strong>C</strong>
                     <div>
-                        <p>Community reply pack</p>
-                        <span>Prepare story replies, quote cards, and audience prompts.</span>
+                        <p>Customer reply pack</p>
+                        <span>Prepare WhatsApp replies, quote cards, and audience prompts for quick posting.</span>
                     </div>
                 </div>
             </div>
@@ -81,19 +81,19 @@ studio_render_header(
         <div class="distribution-grid">
             <article class="distribution-card">
                 <strong>Reels</strong>
-                <p>High-reach hooks and motion-led storytelling for top-of-funnel attention.</p>
+                <p>Fast hooks and motion-led storytelling for top-of-funnel attention and quick local shareability.</p>
             </article>
             <article class="distribution-card">
                 <strong>Carousels</strong>
-                <p>Save-worthy education and process frameworks that reward slower reading.</p>
+                <p>Save-worthy education, buyer proof, and process breakdowns that reward slower reading.</p>
             </article>
             <article class="distribution-card">
                 <strong>Stories</strong>
-                <p>Community touchpoints, polls, quick context, and launch reminders.</p>
+                <p>Audience touchpoints, quick context, reply prompts, and launch reminders that feel immediate.</p>
             </article>
             <article class="distribution-card">
                 <strong>Newsletter</strong>
-                <p>Depth, authority, and closer conversion moments for loyal subscribers.</p>
+                <p>Depth, trust, and stronger conversion moments for subscribers already close to buying.</p>
             </article>
         </div>
     </section>

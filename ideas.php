@@ -7,16 +7,16 @@ $data = studio_data();
 
 studio_render_header(
     'ideas',
-    'Ideas Vault | StudioForge',
-    'A structured ideas vault for content hooks, launch themes, editorial prompts, and reusable creative pillars.'
+    'Idea Bank | StudioForge',
+    'A structured Nigerian idea bank for content hooks, launch themes, editorial prompts, and reusable creative pillars.'
 );
 ?>
 <main>
     <section class="page-hero">
         <div>
-            <span class="eyebrow">Ideas vault</span>
-            <h1>Capture sparks before they disappear.</h1>
-            <p>A flexible planning library for hooks, prompts, formats, and premium storytelling angles.</p>
+            <span class="eyebrow">Idea bank</span>
+            <h1>Save the sparks before the market moves on.</h1>
+            <p>A flexible planning bank for Naija hooks, customer stories, promo angles, and campaign formats.</p>
         </div>
     </section>
 
@@ -28,7 +28,7 @@ studio_render_header(
                 <p><?= studio_e($idea['summary']) ?></p>
                 <div class="idea-meta">
                     <span><?= studio_e($idea['energy']) ?></span>
-                    <span>Ready to shape</span>
+                    <span>Ready for production</span>
                 </div>
             </article>
         <?php endforeach; ?>
@@ -51,8 +51,8 @@ studio_render_header(
 
         <article class="panel accent-panel">
             <span class="section-label">Why this matters</span>
-            <h2>Ideas become assets faster when the system already understands your voice.</h2>
-            <p class="lead-copy small-copy">This is the difference between random posting and brand-led publishing. A good idea vault protects consistency while still leaving room for fresh creative risk.</p>
+            <h2>Ideas become assets faster when the system already understands your market voice.</h2>
+            <p class="lead-copy small-copy">That is the difference between random posting and a proper Nigerian content system. A strong idea bank protects consistency while still leaving room for fresh creative moves.</p>
         </article>
     </section>
 </main>

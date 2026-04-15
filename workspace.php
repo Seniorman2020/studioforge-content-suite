@@ -8,19 +8,19 @@ $data = studio_data();
 studio_render_header(
     'workspace',
     'Workspace | StudioForge',
-    'Workspace dashboard for active campaigns, approvals, publishing tasks, and creative operations.'
+    'Workspace dashboard for Nigerian campaigns, approvals, publishing tasks, and creative operations.'
 );
 ?>
 <main>
     <section class="page-hero page-hero-tight">
         <div>
             <span class="eyebrow">Workspace</span>
-            <h1>Creative operations without the clutter.</h1>
-            <p>Track launch rooms, move assets through review, and keep your team aligned on what gets published next.</p>
+            <h1>Keep every Nigerian campaign moving without clutter.</h1>
+            <p>Track launch rooms, move assets through review, and keep your team aligned on what should go live next.</p>
         </div>
         <div class="hero-note">
-            <strong>Studio principle</strong>
-            <p>Design the system around calm visibility, not noise. That means fewer tabs, clearer priorities, and elegant review flow.</p>
+            <strong>Naija operating style</strong>
+            <p>Keep the work clear, sharp, and easy to scan so Lagos launches, Abuja promos, and weekend pushes do not get lost in noise.</p>
         </div>
     </section>
 
@@ -29,7 +29,7 @@ studio_render_header(
             <article class="metric-card metric-inline">
                 <span><?= studio_e($metric['label']) ?></span>
                 <strong><?= studio_e($metric['value']) ?></strong>
-                <p><?= studio_e($metric['delta']) ?> vs last cycle</p>
+                <p><?= studio_e($metric['delta']) ?> vs last week</p>
             </article>
         <?php endforeach; ?>
     </section>
@@ -41,7 +41,7 @@ studio_render_header(
                     <span class="section-label">Launch rooms</span>
                     <h2>Campaign focus board</h2>
                 </div>
-                <span class="status-badge">3 priority rooms</span>
+                <span class="status-badge">3 live priorities</span>
             </div>
             <div class="campaign-stack">
                 <?php foreach ($data['campaigns'] as $campaign): ?>
@@ -69,24 +69,24 @@ studio_render_header(
             <div class="panel-head">
                 <div>
                     <span class="section-label">Review lane</span>
-                    <h2>Assets waiting for approval</h2>
+                    <h2>Assets waiting for sign-off</h2>
                 </div>
             </div>
             <div class="review-list">
                 <div class="review-card">
-                    <strong>Launch reel storyboard</strong>
-                    <p>Needs creative director sign-off before export and caption lock.</p>
-                    <span>Due in 3 hours</span>
+                    <strong>Easter offer reel storyboard</strong>
+                    <p>Needs final approval before export, caption lock, and paid boost setup.</p>
+                    <span>Due by 3:00 PM</span>
                 </div>
                 <div class="review-card">
-                    <strong>Founder note newsletter</strong>
-                    <p>Final tone pass required after subject line selection.</p>
-                    <span>Due tomorrow</span>
+                    <strong>Buyer trust newsletter</strong>
+                    <p>Needs one more tone pass so the message sounds local, clean, and sales-ready.</p>
+                    <span>Due by 10:00 AM</span>
                 </div>
                 <div class="review-card">
-                    <strong>Partnership teaser captions</strong>
-                    <p>Compliance check pending for collaboration mention.</p>
-                    <span>Due tomorrow</span>
+                    <strong>Vendor spotlight captions</strong>
+                    <p>Final partner confirmation is pending before the post enters scheduling.</p>
+                    <span>Due by 1:00 PM</span>
                 </div>
             </div>
         </article>
@@ -97,38 +97,38 @@ studio_render_header(
             <div class="panel-head">
                 <div>
                     <span class="section-label">Production checklist</span>
-                    <h2>Today in the studio</h2>
+                    <h2>Today on the desk</h2>
                 </div>
             </div>
             <div class="timeline-list">
                 <div class="timeline-item">
                     <strong>08:30</strong>
-                    <p>Review hook options for carousel draft and assign cut-down clips.</p>
+                    <p>Review Easter hook options for the carousel draft and assign short cut-down clips.</p>
                 </div>
                 <div class="timeline-item">
                     <strong>11:00</strong>
-                    <p>Approve story sequence for community remix and confirm copy edits.</p>
+                    <p>Approve the vendor spotlight story sequence and confirm the last copy edits.</p>
                 </div>
                 <div class="timeline-item">
                     <strong>14:00</strong>
-                    <p>Check analytics from yesterday and mark winners for replication.</p>
+                    <p>Check yesterday's numbers and mark the winning hooks for reuse across channels.</p>
                 </div>
                 <div class="timeline-item">
                     <strong>16:30</strong>
-                    <p>Schedule Friday recap email after asset exports are locked.</p>
+                    <p>Schedule the Friday market recap after exports and links are fully locked.</p>
                 </div>
             </div>
         </article>
 
         <article class="panel accent-panel">
-            <span class="section-label">Publishing note</span>
-            <h2>Editorial voice pillars</h2>
+            <span class="section-label">Voice guide</span>
+            <h2>Nigerian content pillars</h2>
             <div class="tag-cloud">
                 <?php foreach ($data['pillars'] as $pillar): ?>
                     <span class="tag"><?= studio_e($pillar) ?></span>
                 <?php endforeach; ?>
             </div>
-            <p class="lead-copy small-copy">Every workflow in this system is anchored in clarity, premium restraint, and stronger audience resonance instead of dashboard clutter.</p>
+            <p class="lead-copy small-copy">Every workflow here is built to sound clear, local, and believable while still looking polished enough for premium brands and fast-moving teams.</p>
         </article>
     </section>
 </main>

@@ -8,15 +8,15 @@ $data = studio_data();
 studio_render_header(
     'analytics',
     'Analytics | StudioForge',
-    'Performance dashboard for creator content analytics, campaign learnings, and experiment tracking.'
+    'Performance dashboard for Nigerian campaign analytics, audience learnings, and experiment tracking.'
 );
 ?>
 <main>
     <section class="page-hero">
         <div>
             <span class="eyebrow">Analytics</span>
-            <h1>Performance signals made useful, not overwhelming.</h1>
-            <p>See what formats, hooks, and visual choices are earning attention so the next sprint gets sharper.</p>
+            <h1>See the signals that matter for Nigerian audiences.</h1>
+            <p>Track the formats, hooks, and visual choices that pull real attention so the next campaign gets sharper.</p>
         </div>
     </section>
 
@@ -41,27 +41,27 @@ studio_render_header(
             <div class="timeline-list">
                 <div class="timeline-item">
                     <strong>Audience response</strong>
-                    <p>Founder-led storytelling drove the strongest retention in slide-based stories and warm replies in DMs.</p>
+                    <p>Founder-led stories and simple local phrasing drove the strongest retention in Stories and warmer DM replies.</p>
                 </div>
                 <div class="timeline-item">
                     <strong>Visual system</strong>
-                    <p>Muted backgrounds with strong subject contrast increased focus on key product details.</p>
+                    <p>Bright white layouts with stronger product focus made offers easier to trust and easier to scan.</p>
                 </div>
                 <div class="timeline-item">
                     <strong>Publishing time</strong>
-                    <p>Morning newsletter sends and late afternoon carousels outperformed mid-day scheduling.</p>
+                    <p>Morning emails and late-afternoon carousel drops beat mid-day posting for this audience mix.</p>
                 </div>
             </div>
         </article>
 
         <article class="panel accent-panel">
             <span class="section-label">Attribution snapshot</span>
-            <h2>Best performing themes</h2>
+            <h2>Best-performing themes</h2>
             <div class="tag-cloud">
                 <span class="tag">Founder perspective</span>
-                <span class="tag">Checklist education</span>
-                <span class="tag">Texture close-ups</span>
-                <span class="tag">Process transparency</span>
+                <span class="tag">Practical checklists</span>
+                <span class="tag">Clean product close-ups</span>
+                <span class="tag">Behind-the-scenes trust</span>
             </div>
         </article>
     </section>

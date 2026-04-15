@@ -8,22 +8,22 @@ $data = studio_data();
 studio_render_header(
     'index',
     'StudioForge | Content Operations Suite',
-    'A refined content operations suite for campaign planning, scheduling, approvals, and performance insights.'
+    'A bright Nigerian content operations suite for campaign planning, approvals, scheduling, and performance insights.'
 );
 ?>
 <main>
     <section class="hero">
         <div class="hero-copy">
-            <span class="eyebrow">Content operations platform</span>
+            <span class="eyebrow">Nigerian content operations</span>
             <h1><?= studio_e($data['brand']['headline']) ?></h1>
             <p class="hero-text"><?= studio_e($data['brand']['subcopy']) ?></p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="workspace.php">Open workspace</a>
-                <a class="btn btn-secondary" href="ideas.php">Browse ideas vault</a>
+                <a class="btn btn-secondary" href="ideas.php">Browse idea bank</a>
             </div>
         </div>
         <div class="hero-panel">
-            <div class="panel-badge">Current studio pulse</div>
+            <div class="panel-badge">Current market pulse</div>
             <div class="hero-metrics">
                 <?php foreach ($data['metrics'] as $metric): ?>
                     <article class="metric-card">
@@ -40,12 +40,12 @@ studio_render_header(
         <article class="panel panel-large">
             <div class="panel-head">
                 <div>
-                    <span class="section-label">Studio rhythm</span>
-                    <h2>One polished system for campaign planning, publishing, and review.</h2>
+                    <span class="section-label">Daily flow</span>
+                    <h2>One bright system for Nigerian campaign planning, publishing, and review.</h2>
                 </div>
-                <span class="status-badge">Creative ops ready</span>
+                <span class="status-badge">Ready for your team</span>
             </div>
-            <p class="lead-copy">StudioForge is designed like a premium editorial workspace instead of a generic admin panel. It gives content teams a calm overview of active launches, upcoming slots, performance learnings, and assets that need approval.</p>
+            <p class="lead-copy">StudioForge gives Nigerian content teams a cleaner way to manage launches, social pushes, customer proof, and approvals without feeling trapped inside a heavy admin dashboard.</p>
             <div class="feature-grid">
                 <?php foreach ($data['features'] as $feature): ?>
                     <article class="feature-card">
@@ -58,7 +58,7 @@ studio_render_header(
 
         <aside class="panel accent-panel">
             <span class="section-label">This week</span>
-            <h2>Publishing focus</h2>
+            <h2>Rollout focus</h2>
             <div class="mini-list">
                 <?php foreach (array_slice($data['calendar'], 0, 4) as $entry): ?>
                     <div class="mini-row">
@@ -78,7 +78,7 @@ studio_render_header(
             <div class="panel-head">
                 <div>
                     <span class="section-label">Campaign lineup</span>
-                    <h2>Active launch rooms</h2>
+                    <h2>Live campaign rooms</h2>
                 </div>
             </div>
             <div class="campaign-stack">
